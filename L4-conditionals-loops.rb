@@ -74,5 +74,18 @@ def read_line(file, &block)
   #implement
 end
 
-# lets revisit the Playlist class - add rating field to track and
-# implement 
+
+#show operators
+def <<(track)
+  
+end
+
+#show named parameters
+
+# lets revisit the Playlist class so that it works with the following
+# code
+
+
+playlist.play({:artist => "Dylan", :rating => 3}) do |track|
+  puts "I am playing #{track.name} by #{track.artist}"
+end
