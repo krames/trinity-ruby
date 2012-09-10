@@ -1,7 +1,7 @@
-
 # Create a hash
 track = {:name => "Electic Worm", 
  :artist => "Beastie Boys",
+ :track_number => 6
 }
 
 # Notice the variables are not typed
@@ -14,7 +14,7 @@ track[:artist]
 track[:artist].class
 
 #change track number
-track[:track] += 1
+track[:track_number] += 1
 
 #create a method
 def show_track(track)
