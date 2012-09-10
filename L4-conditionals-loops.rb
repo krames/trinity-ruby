@@ -16,7 +16,7 @@ puts "turn it on" unless is_this_thing_on
 if is_this_thing_on
   puts "It's on!"
 else
-  putsh "Turn it on"
+  puts "Turn it on"
 end
 
 def grade_paper(grade)
